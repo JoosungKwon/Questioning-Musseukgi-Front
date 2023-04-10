@@ -14,25 +14,86 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #EEEEEE;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.login-form{
+  width: 480px;
+  height:600px;
+  border-radius:2rem;
+  background-color: #FFFFF8;
+}
+.App-name{
+  color:#FF9500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputs{
+  background-color: #E9E9E9;
+  border-style: none;
+  width:70%;
+  height:3rem;
+  margin-bottom:1rem;
+}
+
+.login-button{
+  width:70%;
+  height:3rem;
+  color:white;
+  border-style:none;
+  background-color:#FF9500;
+  font-size:1.5rem;
+  margin-bottom: 7px;
+}
+
+.info{
+  font-size:14px;
+  width:70%;
+  margin:auto;
+}
+.sign-up{
+  float:left;
+}
+
+.forget-password{
+  float:right;
+
+}
+.forget-id{
+  float:right;
+  margin-right:10px;
+}
+
+.bottom-line{
+  border-top: 1px solid #E9E9E9;
+  width:70%;
+  margin:auto;
+  margin-top:30px;
+}
+
+.or{
+  font-size:12px;
+}
+
+#google-login-button{
+  height:2.5rem;
+  color:white;
+  border-style:none;
+  background-color:#CC3731;
+  font-size:1rem;
+  margin-bottom: 7px;
+}
+#kakao-login-button{
+  height:2.5rem;
+  color:black;
+  border-style:none;
+  background-color:#FFEB00;
+  font-size:1rem;
+  margin-bottom: 7px;
 }
